@@ -4,7 +4,7 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-dark text-white py-3">
       <div className="container text-center">
-        <p className="mb-2">© 2025 Anvarjon Sheraliev. All rights reserved.</p>
+        <p className="mb-2">© 2026 Anvarjon Sheraliev. All rights reserved.</p>
         <p>
           <a
             href="https://github.com/anvarali1996"
