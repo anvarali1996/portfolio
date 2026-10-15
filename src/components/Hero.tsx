@@ -78,9 +78,9 @@ const Hero: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <span className="badge bg-primary bg-opacity-20 text-primary border border-primary border-opacity-25 px-3 py-2 rounded-pill fs-6 mb-3">
-            Welcome to my portfolio
-          </span>
+          <span className="badge bg-primary bg-opacity-20 text-info border border-info border-opacity-25 px-3 py-2 rounded-pill fs-6 mb-3 d-inline-block">
+  Welcome to my portfolio
+</span>
         </motion.div>
 
         <motion.h1
@@ -118,7 +118,7 @@ const Hero: React.FC = () => {
             </Button>
           </a>
 
-          <Link to="contact" smooth={true} offset={-80} duration={300}>
+          {/* <Link to="contact" smooth={true} offset={-80} duration={300}>
             <Button 
               variant="outline-light" 
               size="lg" 
@@ -126,7 +126,7 @@ const Hero: React.FC = () => {
             >
               Contact Me <FaArrowRight />
             </Button>
-          </Link>
+          </Link> */}
         </motion.div>
 
         {/* Ijtimoiy tarmoq havolalari (Ixtiyoriy, qo'shib qo'ysangiz yanada chiroyli bo'ladi) */}

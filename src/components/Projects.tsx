@@ -246,18 +246,18 @@ const Projects: React.FC = () => {
           border: '1px solid rgba(255, 255, 255, 0.08)',
         }}
       >
-        <p className="fs-5 fw-medium mb-0 text-white">
-          There are more exciting projects on my{' '}
-          <a
-            href="https://github.com/anvarali1996"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-info fw-bold text-decoration-none d-inline-flex align-items-center gap-1"
-          >
-            <FaGithub className="fs-4" /> GitHub account
-          </a>
-          !
-        </p>
+        <p className="fs-5 fw-medium mb-0 text-dark d-flex align-items-center justify-content-center flex-wrap gap-1">
+  <span>There are more exciting projects on my</span>
+  <a
+    href="https://github.com/anvarali1996"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-info fw-bold text-decoration-none d-inline-flex align-items-center gap-1 ms-1"
+  >
+    <FaGithub className="fs-4" /> GitHub account
+  </a>
+  <span>!</span>
+</p>
       </motion.div>
     </section>
   );
