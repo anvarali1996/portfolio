@@ -118,15 +118,15 @@ const Hero: React.FC = () => {
             </Button>
           </a>
 
-          {/* <Link to="contact" smooth={true} offset={-80} duration={300}>
-            <Button 
+          <Link to="contact" smooth={true} offset={-80} duration={300}>
+            {/* <Button 
               variant="outline-light" 
               size="lg" 
               className="rounded-pill px-4 py-3 fw-semibold d-flex align-items-center gap-2"
             >
               Contact Me <FaArrowRight />
-            </Button>
-          </Link> */}
+            </Button> */}
+          </Link>
         </motion.div>
 
         {/* Ijtimoiy tarmoq havolalari (Ixtiyoriy, qo'shib qo'ysangiz yanada chiroyli bo'ladi) */}
