@@ -31,7 +31,7 @@
 import React from 'react';
 import { Button, Container } from 'react-bootstrap';
 import { motion } from 'framer-motion';
-import { FaDownload, FaArrowRight, FaGithub, FaLinkedin, FaTelegram } from 'react-icons/fa';
+import { FaDownload, FaGithub, FaLinkedin, FaTelegram } from 'react-icons/fa';
 import { Link } from 'react-scroll';
 import CV from '../assets/Anvarjon Sheraliev CV.pdf';
 
