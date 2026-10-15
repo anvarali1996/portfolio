@@ -162,7 +162,7 @@ const Projects: React.FC = () => {
         className="text-center mb-5"
       >
         <h2 className="fw-bold display-5">My Projects</h2>
-        <p className="text-muted">Men yaratgan so'nggi zamonaviy va interaktiv loyihalar</p>
+        {/* <p className="text-muted">Men yaratgan so'nggi zamonaviy va interaktiv loyihalar</p> */}
       </motion.div>
 
       <Row className="g-4">

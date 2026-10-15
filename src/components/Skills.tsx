@@ -92,8 +92,8 @@ const Skills: React.FC = () => {
         transition={{ duration: 0.6 }}
         className="text-center mb-5"
       >
-        <h2 className="fw-bold display-5 text-gradient">Mening Ko'nikmalarim</h2>
-        <p className="text-muted">Kunlik ishlatadigan texnologiyalarim va vositalarim</p>
+        <h2 className="fw-bold display-5 text-gradient">My Skills</h2>
+        {/* <p className="text-muted">Kunlik ishlatadigan texnologiyalarim va vositalarim</p> */}
       </motion.div>
 
       {/* Kartochkalar qatori */}

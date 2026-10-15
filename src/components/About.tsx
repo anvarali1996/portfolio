@@ -53,7 +53,7 @@ const About: React.FC = () => {
         className="text-center mb-5"
       >
         <h2 className="fw-bold display-5">About Me</h2>
-        <p className="text-muted">Tajribam va maqsadlarim haqida qisqacha</p>
+        {/* <p className="text-muted">Tajribam va maqsadlarim haqida qisqacha</p> */}
       </motion.div>
 
       {/* Asosiy Matn (Glassmorphism Kartochka) */}
