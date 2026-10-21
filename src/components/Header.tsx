@@ -103,7 +103,7 @@ const Header: React.FC = () => {
             className="fw-bold fs-4 text-gradient"
             style={{ cursor: 'pointer' }}
           >
-            Anvarjon<span className="text-primary">.dev</span>
+            Anvarjon<span className="text-primary">.eu</span>
           </Navbar.Brand>
 
           <Navbar.Toggle 

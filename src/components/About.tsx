@@ -32,12 +32,12 @@ const About: React.FC = () => {
     },
     {
       icon: <FaGraduationCap className="fs-3 text-warning" />,
-      title: 'Maqom',
+      title: 'Cast',
       desc: 'Junior Full-Stack Dev',
     },
     {
       icon: <FaRocket className="fs-3 text-danger" />,
-      title: 'Yondashuv',
+      title: 'Habit',
       desc: 'Clean & Scalable Code',
     },
   ];
@@ -69,9 +69,6 @@ const About: React.FC = () => {
           border: '1px solid rgba(255, 255, 255, 0.1)',
         }}
       >
-        <p className="fs-5 lh-lg text-secondary mb-0 text-center text-md-start">
-          I'm a <strong className="text-primary">Junior Full-Stack Developer</strong> with a solid foundation in software development, testing, and maintenance. Skilled in front-end technologies such as <span className="badge bg-primary bg-opacity-10 text-primary fs-6 mx-1">JavaScript</span>, <span className="badge bg-info bg-opacity-10 text-info fs-6 mx-1">React</span>, and <span className="badge bg-dark bg-opacity-10 text-dark fs-6 mx-1">Next.js</span>, with working knowledge of <span className="badge bg-success bg-opacity-10 text-success fs-6 mx-1">Node.js</span> and <span className="badge bg-warning bg-opacity-10 text-warning fs-6 mx-1">Python</span>. Focused on creating high-performance, secure, and data-driven applications with clean, reliable code.
-        </p>
         <p className="fs-5 lh-lg text-secondary mb-0 text-center text-md-start">
           I'm a <strong className="text-primary">Junior Full-Stack Developer</strong> with a solid foundation in software development, testing, and maintenance. Skilled in front-end technologies such as <span className="badge bg-primary bg-opacity-10 text-primary fs-6 mx-1">JavaScript</span>, <span className="badge bg-info bg-opacity-10 text-info fs-6 mx-1">React</span>, and <span className="badge bg-dark bg-opacity-10 text-dark fs-6 mx-1">Next.js</span>, with working knowledge of <span className="badge bg-success bg-opacity-10 text-success fs-6 mx-1">Node.js</span> and <span className="badge bg-warning bg-opacity-10 text-warning fs-6 mx-1">Python</span>. Focused on creating high-performance, secure, and data-driven applications with clean, reliable code.
         </p>
