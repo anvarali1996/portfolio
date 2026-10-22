@@ -78,7 +78,7 @@ const Hero: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <span className="badge bg-primary bg-opacity-20 text-info border border-info border-opacity-25 px-3 py-2 rounded-pill fs-6 mb-3 d-inline-block">
+          <span className="badge bg-primary bg-opacity-20 text-white border border-info border-opacity-25 px-3 py-2 rounded-pill fs-6 mb-3 d-inline-block">
   Welcome to my portfolio
 </span>
         </motion.div>

@@ -32,12 +32,12 @@ const About: React.FC = () => {
     },
     {
       icon: <FaGraduationCap className="fs-3 text-warning" />,
-      title: 'Cast',
+      title: 'Role',
       desc: 'Junior Full-Stack Dev',
     },
     {
       icon: <FaRocket className="fs-3 text-danger" />,
-      title: 'Habit',
+      title: 'Focus',
       desc: 'Clean & Scalable Code',
     },
   ];
