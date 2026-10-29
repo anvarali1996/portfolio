@@ -33,7 +33,7 @@ import { Button, Container } from 'react-bootstrap';
 import { motion } from 'framer-motion';
 import { FaDownload, FaGithub, FaLinkedin, FaTelegram } from 'react-icons/fa';
 import { Link } from 'react-scroll';
-import CV from '../assets/Anvarjon Sheraliev CV.pdf';
+import CV from '../assets/Anvarjon_Sheraliev_CV.pdf';
 
 const Hero: React.FC = () => {
   return (
