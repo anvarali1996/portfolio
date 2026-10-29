@@ -103,6 +103,7 @@ import Photo2 from '../assets/Screenshot 2024-04-14 at 19.47.03.png';
 import Photo3 from '../assets/Screenshot 2024-10-23 at 16.09.10.png';
 import Photo4 from '../assets/Screenshot 2024-10-23 at 16.10.42.png';
 import Photo5 from '../assets/Screenshot 2024-11-26 at 22.33.13.png';
+import Photo6 from "../assets/Screenshot 2026-10-29 at 17.33.08.png";
 
 interface Project {
   title: string;
@@ -114,11 +115,11 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: 'E-commerce Website',
-    description: "Expertly crafted React.js project with seamless integration of React Paginate, React Icons, React Router, and Tailwind CSS for a stunning and responsive UI.",
-    tech: 'React, TypeScript, Firebase, Stripe',
-    link: 'https://fetchminiproject.netlify.app',
-    image: Photo2,
+    title: 'ClientFlow CRM',
+    description: "Built with Next.js, TypeScript, Tailwind CSS, and PostgreSQL! Features include secure authentication, customer CRUD, an admin panel, interactive charts, profile management, and responsive design. Deployed with Vercel and Neon.",
+    tech: 'Next.js, TypeScript, Tailwind CSS, PostgreSQL, Better Auth, Neon',
+    link: 'https://clientflow-crm-rho.vercel.app/dashboard',
+    image: Photo6,
   },
   {
     title: 'Responsive E-Commerce Platform',
@@ -126,6 +127,20 @@ const projects: Project[] = [
     tech: 'React, TypeScript, Bootstrap',
     link: 'https://projects-murex-nu.vercel.app/',
     image: Photo,
+  },
+  {
+    title: 'Cinema Hub: Movie Discovery',
+    description: "Cinema-themed app featuring dynamic carousel, Firebase user authentication, real-time data storage, and external API integration.",
+    tech: 'React, TypeScript, Firebase, Bootstrap',
+    link: 'https://signup-5f426.web.app/',
+    image: Photo5,
+  },
+  {
+    title: 'E-commerce Website',
+    description: "Expertly crafted React.js project with seamless integration of React Paginate, React Icons, React Router, and Tailwind CSS for a stunning and responsive UI.",
+    tech: 'React, TypeScript, Firebase, Stripe',
+    link: 'https://fetchminiproject.netlify.app',
+    image: Photo2,
   },
   {
     title: 'E-Commerce Store with Payment',
@@ -140,13 +155,6 @@ const projects: Project[] = [
     tech: 'React, TypeScript, Firebase, Bootstrap',
     link: 'https://educonnect-uz.netlify.app',
     image: Photo4,
-  },
-  {
-    title: 'Cinema Hub: Movie Discovery',
-    description: "Cinema-themed app featuring dynamic carousel, Firebase user authentication, real-time data storage, and external API integration.",
-    tech: 'React, TypeScript, Firebase, Bootstrap',
-    link: 'https://signup-5f426.web.app/',
-    image: Photo5,
   },
 ];
 
